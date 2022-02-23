@@ -118,3 +118,11 @@ color: black;
 .carrossel-filmes{
     margin-top: 5px;
 }
+.item {
+    transition: 250ms all;
+    /* max-height: 350px; */
+}
+.item:hover {
+    transform: scale(1.2);
+    z-index: 1 ;
+}
